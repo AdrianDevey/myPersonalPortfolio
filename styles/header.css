@@ -1,0 +1,149 @@
+#header-section{
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 1s;
+  z-index: 3;
+  width: 100%;
+}
+
+.nav-container{
+  display: flex;
+  height: 50px;
+  justify-content: end;
+  align-items: center;
+  margin: 0 50px;
+  color: #fff;
+}
+
+.nav-logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  justify-content: center;
+  height: 45px;
+
+  position: fixed;
+  left: 50px;
+  top: 5px;
+}
+
+.nav-logo img{
+  height: 45px;
+}
+
+.nav-logo img:hover{
+  opacity: .5;
+}
+
+.nav-logo h1{
+  color: #ffffff50;
+}
+
+.nav-logo h1:hover{
+  color: #fff;
+}
+
+.nav-logo h1 span{
+  color: #fff;
+}
+
+.nav-logo  h1 span:hover {
+  color: #c05850;
+}
+
+.nav-bar ul{
+  display: flex;
+  gap: 20px;
+}
+
+.nav-bar ul li{
+  list-style-type: none;
+  font-size: larger;
+  color: #ffffff50;
+  cursor: pointer;
+  text-align: center;
+}
+
+.nav-bar ul li:first-child{
+  color: #fff;
+}
+
+.nav-bar ul li:hover{
+  color: #c05850;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  /* Wala babaguhin */
+}
+
+@media screen and (max-width: 768px) {
+
+  .nav-logo{
+    gap: 5px;
+    height: auto;
+    top: 7px;
+  }
+  
+  .nav-logo img{
+    height: 45px;
+  }
+
+  .nav-logo h1{
+    font-size: 20px;
+  }
+  
+  .nav-bar ul{
+    gap: 10px;
+  }
+
+  .nav-bar ul li{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  
+  .nav-logo a img{
+    height: 35px;
+  }
+
+  .nav-logo h1{
+    font-size: 15px;
+  }
+  
+  .nav-bar ul{
+    gap: 5px;
+  }
+
+  .nav-bar ul li{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nav-logo{
+    gap: 5px;
+  }
+
+  .nav-logo a img{
+    height: 30px;
+  }
+
+  .nav-logo h1{
+    font-size: 10px;
+  }
+  
+  .nav-bar ul{
+    gap: 5px;
+  }
+
+  .nav-bar ul li{
+    font-size: 10px;
+  }
+}

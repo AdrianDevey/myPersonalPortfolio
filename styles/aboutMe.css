@@ -1,0 +1,567 @@
+#aboutMe-section{
+  margin: 50px 100px;
+  color: #fff;
+  height: auto;
+}
+
+.title{
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.title:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 100px;
+  border-radius: 2px;
+  background-color:#c05850;
+}
+
+.aboutMe-container{
+  margin-top: 50px;
+  display: flex;
+  justify-self:center;
+  align-items:center;
+  gap: 100px;
+}
+
+.aboutMe-profile{
+  width: 100%;
+  max-width: 1850px;
+  height: auto;
+  border-radius: 25px;
+  filter: grayscale(65%);
+}
+
+.aboutMe-text{
+  padding: 0;
+  text-align: justify;
+  
+  height: 850px;
+}
+
+.aboutMe-text img{
+  display: none;
+}
+
+.aboutMe-text p{
+  text-indent: 40px;
+  font-size: 15px;
+  line-height: 2;
+  margin-bottom: 10px;
+}
+
+.info-container{
+  display: flex;
+  height: auto;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.info-bar{
+  display: flex;
+  gap: 25px;
+  height: 25px;
+}
+
+.info-bar button{
+  margin: 0;
+  font-size: 15px;
+  color: #c05850;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.info-bar button:hover{
+  color: #c0585061;
+}
+
+.info-bar button:active{
+  border-bottom: 2px solid #c05850;
+  transition: border-bottom 0.2s
+}
+
+.info-bar button:focus{
+  outline: none;
+  border-bottom: 2px solid #c05850;
+}
+
+.info-bar button a{
+  margin: 0;
+  font-size: 15px;
+  color: #c05850;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.info-bar button a:hover{
+  color: #c0585061;
+}
+
+.info-bar button a:active{
+  border-bottom: 2px solid #c05850;
+  transition: border-bottom 0.2s
+}
+
+.info-bar button a:focus{
+  outline: none;
+  border-bottom: 2px solid #c05850;
+}
+
+.info-box{
+  display: flex;
+  gap: 15px;
+}
+
+.info-box ul li{
+  list-style-type: none;
+  font-size: 15px;
+}
+
+#personal-info{
+  display: block;
+  margin-bottom: 15px;
+  line-height: 2;
+}
+
+#academic-bg{
+  display: none;
+  margin-bottom: 15px;
+}
+
+.school{
+  width: 100%;
+  line-height: 2;
+  margin-bottom: 25px;
+}
+
+.school h1{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.school h2{
+  text-indent: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.school h3{
+  text-indent: 10px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.school h4{
+  text-indent: 10px;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+#contact-info{
+  line-height: 2;
+  display: none;
+}
+
+.phone{
+  display: flex;
+  gap: 150px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+.phone-num  ul li{
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.social-media{
+  display: flex;
+  gap: 50px;
+}
+
+.soc-med ul li{
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.soc-med ul li a{
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .aboutMe-container{
+    gap: 75px;
+  }
+  
+  .aboutMe-profile{
+    max-width: 1700px;
+  }
+  
+  .aboutMe-text{
+    max-width: 1500px;
+  }
+  
+  .aboutMe-text p{
+    font-size: 14px;
+  }
+  
+  .info-bar{
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .info-bar button{
+    font-size: 14px;
+  }
+
+  .info-bar button a{
+    font-size: 14px;
+  }
+
+  .info-bar button:active{
+    margin-top: -10px;
+  }
+  
+  .info-bar button:focus{
+    margin-top: -10px;
+  }
+  
+  
+  .info-box ul li{
+    font-size: 14px;
+  }
+  
+  #personal-info{
+    display: block;
+    margin-bottom: 15px;
+    line-height: 2;
+  }
+  
+  .school h1{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .school h2{
+    font-size: 14px;
+  }
+  
+  .school h3{
+    font-size: 14px;
+  }
+  
+  .school h4{
+    font-size: 11px;
+  }
+  
+  .phone-num  ul li{
+    font-size: 14px;
+  }
+  
+  
+  .soc-med ul li{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title{
+    font-size: 25px;
+  }
+
+  #aboutMe-section{
+    margin: 50px 50px;
+  }
+
+  .aboutMe-container{
+    gap: 45px;
+  }
+  
+  .aboutMe-profile{
+    max-width: 1500px;
+  }
+  
+  .aboutMe-text{
+    height: 850px;
+  }
+  
+  .aboutMe-text p{
+    font-size: 12px;
+  }
+  
+  .info-bar{
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .info-bar button{
+    font-size: 12px;
+  }
+
+  .info-bar button a{
+    font-size: 12px;
+  }
+
+  .info-bar button:active{
+    margin-top: 0px;
+  }
+  
+  .info-bar button:focus{
+    margin-top: 0px;
+  }
+  
+  .info-box ul li{
+    font-size: 12px;
+  }
+  
+  .school h1{
+    font-size: 15px;
+  }
+  
+  .school h2{
+    font-size: 12px;
+  }
+  
+  .school h3{
+    font-size: 12px;
+  }
+  
+  .school h4{
+    font-size: 11px;
+  }
+  
+  .phone{
+    gap: 25px;
+  }
+
+  .social-media{
+    display: flex;
+    gap: 25px;
+  }
+  
+  .phone-num  ul li{
+    font-size: 12px;
+  }
+  
+  
+  .soc-med ul li{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title{
+    font-size: 20px;
+  }
+  
+  .title:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 75px;
+    border-radius: 2px;
+    background-color:#c05850;
+  }
+
+  #aboutMe-section{
+    margin: 50px 50px;
+  }
+
+  .aboutMe-container{
+    gap: 0px;
+  }
+
+  .profile-pic img{
+    display: none;
+  }
+  
+  .aboutMe-text{
+    width: 100%;
+    height: auto;
+  }
+
+  .aboutMe-text img{
+    display: block;
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+  
+  
+  .aboutMe-text p{
+    font-size: 12px;
+  }
+  
+  .info-bar{
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .info-bar button{
+    font-size: 12px;
+  }
+
+  .info-bar button a{
+    font-size: 12px;
+  }
+
+  .info-bar button:active{
+    margin-top: 0px;
+  }
+  
+  .info-bar button:focus{
+    margin-top: 0px;
+  }
+  
+  .info-box ul li{
+    font-size: 12px;
+  }
+  
+  .school h1{
+    font-size: 15px;
+  }
+  
+  .school h2{
+    font-size: 12px;
+  }
+  
+  .school h3{
+    font-size: 12px;
+  }
+  
+  .school h4{
+    font-size: 11px;
+  }
+  
+  .phone{
+    gap: 25px;
+  }
+
+  .social-media{
+    display: flex;
+    gap: 25px;
+  }
+  
+  .phone-num  ul li{
+    font-size: 12px;
+  }
+  
+  
+  .soc-med ul li{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title{
+    margin: 0;
+  }
+  
+  .title:after{
+    width: 50px;
+  }
+
+  #aboutMe-section{
+    margin: 50px 50px;
+  }
+
+  .aboutMe-container{
+    gap: 0px;
+  }
+
+  .aboutMe-text img{
+    display: block;
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+  
+  
+  .aboutMe-text p{
+    font-size: 10px;
+  }
+  
+  .info-bar{
+    width: 100%;
+    gap: 0;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .info-bar button{
+    font-size: 10px;
+  }
+
+  .info-bar button a{
+    font-size: 10px;
+  }
+
+  
+  .info-box ul li{
+    font-size: 10px;
+  }
+  
+  .school h1{
+    font-size: 12px;
+  }
+  
+  .school h2{
+    font-size: 10px;
+  }
+  
+  .school h3{
+    font-size: 10px;
+  }
+  
+  .school h4{
+    font-size: 8px;
+  }
+  
+  .phone{
+    gap: 25px;
+  }
+
+  .social-media{
+    display: flex;
+    width: 100%;
+    gap: 25px;
+  }
+  
+  .phone-num  ul li{
+    font-size: 10px;
+  }
+  
+  
+  .soc-med ul li{
+    font-size: 10px;
+  }
+}

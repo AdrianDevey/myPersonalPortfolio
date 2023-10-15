@@ -1,0 +1,188 @@
+#sna-section{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  display: none;
+}
+
+.sna-container{
+  margin: 50px 100px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+
+}
+
+.sna-box{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  justify-content: space-between;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .8);
+}
+
+.sna-box img{
+  width: 100%;
+  height: auto;
+  filter: grayscale(50%);
+  opacity: .5;
+}
+
+.sna-box:hover img{
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+.sna-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin:10px;
+}
+
+.sna-details .sna-title h2{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sna-details .sna-title h4{
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.sna-details button{
+  width: 100%;
+  height: 50px;
+  padding:  0;
+  border: none;
+  background-color: #c05850;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.sna-details button a{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+
+
+@media screen and (max-width:  1024px){
+  .sna-container{
+    margin: 50px 100px;
+  }
+  
+  .sna-box{
+    width: 250px;
+    height: 280px;
+  }
+  
+  
+  .sna-details .sna-title h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .sna-details .sna-title h4{
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+  }
+  
+  .sna-details button{
+    height: 35px;
+    border-radius: 8px;
+    
+  }
+  
+  
+  .sna-details button a{
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width:  767px){
+  .sna-container{
+    margin: 50px 50px;
+  }
+  
+  .sna-box{
+    width: 300px;
+    height: 300px;
+  }
+  
+  
+  .sna-details .sna-title h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .sna-details .sna-title h4{
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+  }
+  
+  .sna-details button{
+    height: 30px;
+    border-radius: 8px;
+  }
+  
+  
+  .sna-details button a{
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width:  480px){
+  .sna-container{
+    margin: 50px 50px;
+  }
+  
+  .sna-box{
+    width: 300px;
+    height: 300px;
+  }
+  
+  
+  .sna-details .sna-title h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .sna-details .sna-title h4{
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+  }
+  
+  .sna-details button{
+    height: 30px;
+    border-radius: 8px;
+  }
+  
+  
+  .sna-details button a{
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

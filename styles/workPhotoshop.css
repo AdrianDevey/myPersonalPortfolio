@@ -1,0 +1,183 @@
+#photoshop-section{
+  margin: 0;
+  padding: 0 ;
+  box-sizing: border-box;
+
+  display: none;
+}
+
+.ps-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px 20px 0 20px;
+}
+
+
+.ps-box{
+  margin: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.ps-content{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.ps-content img{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  filter: grayscale();
+  opacity: .5;
+  cursor: pointer;
+}
+
+.ps-content img:hover{
+  transform: scale(1.2);
+  transition: all 0.3s;
+  filter: grayscale(0);
+  opacity: 1;
+  z-index: 2;
+}
+
+
+
+
+/* Full Screen */
+
+.full-img{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+
+.full-img img{
+  width: auto;
+  height: 90%;
+  max-width: 80vw;
+}
+
+.full-img span{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 20px;
+  color:  #fff;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.full-img span:hover{
+  color:  #c05850;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1024px){
+  .ps-box{
+    margin: 0 100px;
+    flex-flow: row wrap;
+    justify-content: center ;
+    align-items: start;
+    width: 100%;
+  }
+
+  .ps-content{
+    width: 22%;
+    align-items: start;
+  }
+
+  .num1{
+    order: 1;
+  }
+
+  .num2{
+    order: 2;
+  }
+
+  .num3{
+    order: 3;
+  }
+
+  .num4{
+    order: 4;
+  }
+
+  /* Full Screen */
+
+  .full-img img{
+    width: auto;
+    height: 100%;
+    max-height: 70vh;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .ps-box{
+    margin: 0 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 25px;
+  }
+
+  .ps-content{
+    width: 47%;
+    gap: 25px;
+  }
+
+  .num1{
+    order: 1;
+  }
+
+  .num2{
+    order: 2;
+  }
+
+  .num3{
+    order: 3;
+  }
+
+  .num4{
+    order: 4;
+  }
+  
+}
+
+@media screen and (max-width: 480px){
+  .ps-box{
+    margin: 0 50px;
+  }
+
+  .ps-box{
+    margin: 0 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 15px;
+  }
+
+  .ps-content{
+    width: 35%;
+    margin: 0;
+    gap: 15px;
+  }
+  
+  .ps-content img{
+    margin-bottom: 0px;
+  }
+}

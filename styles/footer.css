@@ -1,0 +1,73 @@
+#footer-section{
+  padding: 0;
+  margin: 0;
+}
+
+.footer-container{
+  width: 100%;
+}
+
+.footer-container h1{
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #c0585059;
+}
+
+.footer-container h1 span{
+  color: #ffffff50;
+  font-size: 20px;
+  font-weight: bold;
+  background-color:transparent;
+}
+
+
+@media screen and (max-width: 1024px){ 
+  .footer-container h1{
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .footer-container h1 span{
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 768px){ 
+  .footer-container h1{
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .footer-container h1 span{
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 480px){ 
+  .footer-container h1{
+    padding: 10px;
+    font-size: 12px;
+  }
+  
+  .footer-container h1 span{
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 425px){ 
+  .footer-container h1{
+    padding: 10px;
+    font-size: 10px;
+  }
+  
+  .footer-container h1 span{
+    font-size: 12px;
+    font-weight: bold;
+  }
+}

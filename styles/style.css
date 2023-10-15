@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #3a353f;
+  height: auto;
+}
+
+.body-container{
+  margin: 50px 200px 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro{
+  width: 800px;
+  color: #ffffff50;
+  background-color: transparent;
+  position: relative;
+  left: 100px;
+ 
+}
+
+.name{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffffa7;
+  width: 500px;
+  background-color: transparent;
+
+  
+}
+
+.intro h2{
+  font-size: 26px;
+  margin: 10px 0;
+  background-color: transparent;
+}
+
+.intro h6{
+  font-size: 15px;
+  font-weight: 100;
+  background-color: transparent;
+}
+
+.face{
+  width: 100%;
+  max-width: 630px;
+  height: auto;
+  opacity: .85;
+  background-color: transparent;
+  position: relative;
+  right: 100px;
+  z-index: 2;
+  
+}
+
+
+#float-logo{
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  cursor: pointer;
+
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1024px) {
+  .body-container{
+    margin: 50px 200px 0 200px;
+  }
+  
+  .intro{
+    left: 100px;
+   
+  }
+  
+  .name{
+    font-size: 32px;
+  }
+  
+  .intro h2{
+    font-size: 23px;
+  }
+  
+  .intro h6{
+    font-size: 15px;
+  }
+  
+  .face{
+    right: 100px;
+    max-width: 530px;
+  }
+
+  #float-logo{
+    width: 80px;
+    height: 80px;
+    bottom: 10px;
+    right: 5px;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .body-container{
+    margin: 50px 100px 0 100px;
+  }
+  
+  .intro{
+    left: 70px;
+   
+  }
+  
+  .name{
+    font-size: 20px;
+    width: 350px;
+  }
+  
+  .intro h2{
+    font-size: 15px;
+    width: 300px;
+  }
+  
+  .intro h6{
+    font-size: 10px;
+    width: 280px;
+  }
+  
+  .face{
+    right: 70px;
+    max-width: 300px;
+  }
+
+  #float-logo{
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .body-container{
+    margin: 50px 100px 0 100px;
+  }
+  
+  .intro{
+    left: 70px;
+   
+  }
+  
+  .name{
+    font-size: 15px;
+    width: 280px;
+  }
+  
+  .intro h2{
+    font-size: 12px;
+    width: 200px;
+    margin: 5px 0;
+  }
+  
+  .intro h6{
+    font-size: 10px;
+    width: 200px;
+  }
+  
+  .face{
+    right: 70px;
+    max-width: 230px;
+  }
+
+  #float-logo{
+    width: 40px;
+    height: 40px;
+    bottom: 15px;
+    right: 5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .body-container{
+    margin: 50px 50px 0 50px;
+  }
+  
+  .intro{
+    left: 35px;
+   
+  }
+  
+  .name{
+    font-size: 12px;
+    width: 200px;
+  }
+  
+  .intro h2{
+    font-size: 10px;
+    width: 200px;
+    margin: 5px 0;
+  }
+  
+  .intro h6{
+    font-size: 8px;
+    width: 200px;
+  }
+  
+  .face{
+    right: 35px;
+    max-width: 200px;
+  }
+}

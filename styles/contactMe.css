@@ -1,0 +1,303 @@
+#contact-me-section{
+  padding: 0;
+  margin: 0;
+}
+
+.contact-me-container{
+  margin: 50px 100px 25px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.contact-me-container img{
+  width: 350px;
+  height: 350px;
+}
+
+.contact-me-info{
+  width: 100%;
+  height: auto;
+}
+
+.contact-me-box{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid #c0585063;
+}
+
+.contact-me-box i{
+  color: #c05850;
+  font-size: 50px;
+  width: 50px;
+}
+
+.contact-me-details{
+  color: #fff;
+}
+
+.contact-me-details h3{
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.contact-me-details h2{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.contact-me-details button{
+  padding: 10px;
+  background-color: transparent;
+  border: 3px solid #c05850;
+  border-radius: 10px;
+}
+
+.contact-me-details button a{
+  text-decoration: none;
+  color: #c05850;
+  font-size: 20px;
+  font-weight: 100;
+  background-color: transparent;
+}
+
+.contact-me-details button:hover{
+  background-color: #c05850;
+}
+
+.contact-me-details button:hover a{
+  color: #fff;
+}
+
+
+.social-icons{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.social-icons a i{
+  font-size: 50px;
+  color: #c05850;
+}
+
+.social-icons a i:hover{
+  color: #c0585059;
+
+}
+
+@media screen and (max-width: 1024px){
+  .contact-me-container{
+    margin: 50px 100px 25px 100px;
+    gap: 50px;
+  }
+  
+  .contact-me-container img{
+    width: 250px;
+    height: 250px;
+  }
+  
+  .contact-me-box{
+    gap: 20px;
+  }
+  
+  .contact-me-box i{
+    font-size: 30px;
+  }
+  
+  .contact-me-details h3{
+    font-size: 15px;
+    font-weight: 100;
+  }
+  
+  .contact-me-details h2{
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+  .contact-me-details button{
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .contact-me-details button a{
+    font-size: 18px;
+    font-weight: 100;
+  } 
+  
+  .social-icons{
+    margin-top: 10px;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .social-icons a i{
+    font-size: 40px;
+    color: #c05850;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .contact-me-container{
+    margin: 50px 50px 25px 50px;
+    gap: 20px;
+  }
+  
+  .contact-me-container img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .contact-me-box{
+    gap: 20px;
+  }
+  
+  .contact-me-box i{
+    font-size: 30px;
+    width: 30px;
+  }
+  
+  .contact-me-details h3{
+    font-size: 12px;
+    font-weight: 100;
+  }
+  
+  .contact-me-details h2{
+    font-size: 15px;
+    font-weight: 100;
+  }
+  
+  .contact-me-details button{
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .contact-me-details button a{
+    font-size: 15px;
+    font-weight: 100;
+  } 
+  
+  .social-icons{
+    margin-top: 10px;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .social-icons a i{
+    font-size: 30px;
+    color: #c05850;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .contact-me-container{
+    margin: 50px 50px 25px 50px;
+    gap: 10px;
+  }
+  
+  .contact-me-container img{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .contact-me-box{
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  .contact-me-box i{
+    font-size: 20px;
+    width: 20px;
+  }
+  
+  .contact-me-details h3{
+    font-size: 8px;
+    font-weight: 100;
+  }
+  
+  .contact-me-details h2{
+    font-size: 10px;
+    font-weight: 100;
+  }
+  
+  .contact-me-details button{
+    padding: 5px;
+    border-radius: 8px;
+  }
+  
+  .contact-me-details button a{
+    font-size: 10px;
+    font-weight: 100;
+  } 
+  
+  .social-icons{
+    margin-top: 10px;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .social-icons a i{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .contact-me-container{
+    margin: 50px 50px 25px 50px;
+    gap: 8px;
+  }
+  
+  .contact-me-container img{
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .contact-me-box{
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  .contact-me-box i{
+    font-size: 15px;
+    width: 15px;
+  }
+  
+  .contact-me-details h3{
+    font-size: 8px;
+    font-weight: 100;
+  }
+  
+  .contact-me-details h2{
+    font-size: 10px;
+    font-weight: 100;
+  }
+  
+  .contact-me-details button{
+    padding: 5px;
+    border-radius: 8px;
+  }
+  
+  .contact-me-details button a{
+    font-size: 10px;
+    font-weight: 100;
+  } 
+  
+  .social-icons{
+    margin-top: 10px;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .social-icons a i{
+    font-size: 20px;
+  }
+}

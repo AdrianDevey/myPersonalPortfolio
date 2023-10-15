@@ -1,0 +1,127 @@
+#skill-section{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.skill-container{
+  margin: 50px 100px 0 100px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-box{
+  width: 200px;
+  height: 200px;
+  background-color: #3a353f;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0,0,0,.5);
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.skill-box img{
+  height: 100px;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+
+.skill-box h1{
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  background-color: transparent;
+}
+
+.skill-box:hover{
+  background-color: #c05850;
+  color: #ffffff50;
+ 
+}
+
+.skill-box:hover h1{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 1024px){
+  .skill-container{
+    margin: 50px 100px 0 100px;
+    gap: 20px;
+  }
+  
+  .skill-box{
+    width: 180px;
+    height: 180px;
+  }
+  
+  .skill-box img{
+    height: 100px;
+  }
+  
+  .skill-box h1{
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .skill-box h1:hover{
+    font-weight: 400;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .skill-container{
+    margin: 50px 50px 0 50px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .skill-container{
+    margin: 50px 50px 0 50px;
+    gap: 10px;
+  }
+  
+  .skill-box{
+    width: 120px;
+    height: 120px;
+  }
+  
+  .skill-box img{
+    height: 50px;
+  }
+  
+  .skill-box h1{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .skill-box h1:hover{
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  
+  
+  .skill-box{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .skill-box img{
+    height: 30px;
+  }
+}
