@@ -1,3 +1,7 @@
+window.onload = function() {
+  window.scrollTo(0, 0);
+};
+
 $(".nav-logo").click(function() {
   $('html,body').animate({
       scrollTop: $("html").offset().top},
